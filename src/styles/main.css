@@ -41,6 +41,7 @@ body {
   height: 120rem;
   position: absolute;
   background-image: url("../../public/images/splash_page/hero_image.jpg");
+  background-size: cover;
 }
 .header__graphic {
   padding-left: 4rem;
@@ -216,13 +217,15 @@ body {
 }
 .article__img {
   display: inline-block;
-  top: 50%;
-  transform: translateY(20%);
+  top: 40%;
+  transform: translateY(5%);
 }
 .article__content {
   display: inline-block;
-  width: 75%;
+  top: 20%;
+  max-width: 60%;
   margin-left: 11rem;
+  margin-top: 5rem;
 }
 .article__content-label {
   font-size: 7rem;
