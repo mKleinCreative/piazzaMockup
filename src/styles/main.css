@@ -137,16 +137,18 @@ body {
 }
 .taglines__container {
   position: relative;
-  padding: 3rem 0 5rem 7rem;
+  padding: 3rem 0 5rem 5rem;
+  display: inline-block;
+  overflow-x: auto;
 }
 .taglines__container-section {
   height: 100%;
-  width: 39rem;
+  width: 35rem;
   display: inline-block;
   position: relative;
 }
 .taglines__container > :not(:last-child) {
-  margin-right: 7rem;
+  margin-right: 4rem;
 }
 .taglines__container > :not(:first-child) {
   margin-left: 1rem;
@@ -173,9 +175,8 @@ body {
   );
   height: 30rem;
   width: .3rem;
-  right: -30;
+  right: -15;
   top: 45;
-  margin-left: 10rem;
 }
 .section__title {
   width: 100%;
